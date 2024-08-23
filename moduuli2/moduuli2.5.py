@@ -11,4 +11,3 @@ print("Kilogrammoina: ",KILOGRAMMAMUUT/1000, "Grammoina: ",KILOGRAMMAMUUT)
 
 
 
-
