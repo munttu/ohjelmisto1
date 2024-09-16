@@ -1,5 +1,3 @@
-from Tools.scripts.mailerdaemon import emparse_list_from
-
 user='python'
 password='rules'
 maxattemps=5
