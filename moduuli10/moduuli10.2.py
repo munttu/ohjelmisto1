@@ -14,11 +14,6 @@ class Talo:
             self.elev_amount[elev_num].move(target_floor)
         else:
             print("virheellinen hissi numero")
-    def fire_alarm(self):
-        print("koska palohälytin soi kaikki hissit menee 1")
-        for a , hissi in  enumerate(self.elev_amount):
-            print(f"ajetaan hissi {a} ensimmäiseen kerrokseen ")
-            hissi.move(1)
 
 class Hissi:
     def __init__(self, bottom, top):
@@ -51,6 +46,5 @@ class Hissi:
 talo = Talo(10, 1, 3)
 talo.elev_drive(1, 5)
 talo.elev_drive(2, 8)
-talo.fire_alarm()
 talo.elev_drive(2,6)
 
